@@ -26,6 +26,8 @@ how the legacy code project will work.
 
 ## Retro3 (approx 2:15-2:45)
 
+{% include retro3.md %}
+
 ## Sprint Planning (approx 2:45-3:15pm)
 
 Goal: Each team member should have an issue in the "in progress" column on Kanban board before you leave today.
