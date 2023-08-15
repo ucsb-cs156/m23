@@ -9,17 +9,14 @@ layout: default
 parent: lab
 num: project
 nav_order: 300
-m23_9am_1: https://github.com/orgs/ucsb-cs156-m23/projects/55
-m23_9am_2: https://github.com/orgs/ucsb-cs156-m23/projects/52
-m23_9am_3: https://github.com/orgs/ucsb-cs156-m23/projects/54
-m23_10am_1: https://github.com/orgs/ucsb-cs156-m23/projects/57
-m23_10am_2: https://github.com/orgs/ucsb-cs156-m23/projects/53
-m23_10am_3: https://github.com/orgs/ucsb-cs156-m23/projects/56
-m23_10am_4: https://github.com/orgs/ucsb-cs156-m23/projects/51
 proj_courses_slack_url: tbd
 proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
 proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
 ---
+
+# Legacy code project
+
+{% include legacy.md %}
 
 # The Assignment, Briefly.
 
@@ -77,21 +74,15 @@ Your final project grade is maxed out at 110 total project points--any points in
 
 # Sprint Planning for Legacy Code project
 
-Each team already has a Kanban board setup for the legacy code project (see links below).   However unlike in your team01, team02, and team03 projects, it's up to you to populate this yourself.
+Each team already has a Kanban board setup for the legacy code project (see links below in `Kanban` column).   However unlike in your team01, team02, and team03 projects, it's up to you to populate this yourself.
 
-| 9am | 10am | 
-|-----|-----|
-| [m23-9am-1]({{page.m23_9am_1}}) | [m23-10am-1]({{page.m23_10am_1}}) | 
-| [m23-9am-2]({{page.m23_9am_2}}) | [m23-10am-2]({{page.m23_10am_2}}) | 
-| [m23-9am-3]({{page.m23_9am_3}}) | [m23-10am-3]({{page.m23_10am_3}}) | 
-|                         | [m23-10am-4]({{page.m23_10am_4}}) | 
+{% include legacy.md %}
 
 
-You should add the `In Review` column if it is not already present.
+The goal of Sprint Planning is that when finished, every member of the team will be assigned to at least one 
+issue in the "in progress" column.
 
-Then, you should populate your todo column with issues, start assigning them to your team, and start working.   I'll cover where these issues come from in a moment.
-
-You may not get through all of the Sprint planning today, but by the end of discussion section on Wednesday:
+By the end of your first sprint planning meeting:
 * Each of the six team members should be assigned to an issue in the todo column
 * The previous bullet point shoudl *remain true* until your team reaches 100 points
 
@@ -120,6 +111,7 @@ Points belong to the whole team, not to individuals
 For issues, you'll need to do a bit more work that in the previous team projects.
 
 Here is where you'll get issues from:
+
 * The three starter code repos have issues lists (as shown in the table below).
 * These have been copied to your repo
 * These issues come in different sizes 

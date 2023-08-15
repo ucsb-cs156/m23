@@ -6,14 +6,6 @@ ready: true
 layout: default
 parent: lectures
 slides: 
-teams: 
-  - m23-9am-1:
-  - m23-9am-2:
-  - m23-9am-3:
-  - m23-10am-1:
-  - m23-10am-2:
-  - m23-10am-3:
-  - m23-10am-4:
 ---
 
 ## Introducting the legacy code project (10 minutes mini-lecture/discussion)
@@ -40,7 +32,7 @@ Goal: Each team member should have an issue in the "in progress" column on Kanba
 
 
 What to do: 
-* Look over the issues list for your repo (see link below)
+* Look over the issues list for your repo (see issues link in table below)
 * Find an issue to work on, and claim it; **discuss this with your team**
   * If it's a large issue, consider working in pairs.
   * Go into the issue, find the place that says `Assignees` / `No one—assign yourself` and click to assign yourself (and your pair).
@@ -54,10 +46,7 @@ What to do:
 
 For more information on sprint plannings, see: <https://ucsb-cs156.github.io/m23/lab/project.html>
 
-
-{% for team in page.teams %}
-* {{ team }}: <https://github.com/ucsb-cs156-m23/team03-{{team}}/issues>
-{% endfor %}
+{% include legacy.md %}
 
 Optional:
 * If your team finds it helpful, you can create an extra columns on the Kanban board called "Epics in Progress" and "Epics Done".

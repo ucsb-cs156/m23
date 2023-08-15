@@ -74,3 +74,48 @@ defaults:
       layout: staffer
       subpath: '/assets/images/'
  
+
+teams: 
+  - team: m23-9am-1
+    project: "gauchoride"
+    url: "https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-1"
+    kanban: "https://github.com/orgs/ucsb-cs156-m23/projects/55"
+    dokku: 01
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05DVLTNX0C"
+  - team: m23-9am-2
+    project: "gauchoride"
+    url: "https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-2"
+    kanban: "https://github.com/orgs/ucsb-cs156-m23/projects/52"
+    dokku: 02
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05DT827KGS"
+  - team: m23-9am-3
+    project: "gauchoride"
+    url: "https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-3"
+    kanban: "https://github.com/orgs/ucsb-cs156-m23/projects/54"
+    dokku: 03
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05DT83HLKU"
+  - team: m23-10am-1
+    project: "happycows"
+    url: "https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-1"
+    kanban: "https://github.com/orgs/ucsb-cs156-m23/projects/57"
+    dokku: 04
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05D8131BPH"
+  - team: m23-10am-2
+    project: "happycows"
+    url: "https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-2"
+    kanban: "https://github.com/orgs/ucsb-cs156-m23/projects/53"
+    dokku: 05
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05D813KMV5"
+  - team: m23-10am-3
+    project: "happycows"
+    url: "https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-3"
+    kanban: https://github.com/orgs/ucsb-cs156-m23/projects/56
+    dokku: 06
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05DKJTPUSH"
+  - team: m23-10am-4
+    project: "happycows"
+    url: "https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-4"
+    kanban: https://github.com/orgs/ucsb-cs156-m23/projects/51
+    dokku: 07
+    slack: "https://ucsb-cs156-m23.slack.com/archives/C05EC8B0KCY"
+

@@ -7,3 +7,6 @@ nav_order: 0
 
 # {{site.title}}, {{site.quarter}}
 
+## Legacy Code Projects
+
+{% include legacy.md %}
