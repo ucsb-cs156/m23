@@ -26,6 +26,8 @@ how the legacy code project will work.
 
 ## Retro3 (approx 2:15-2:45)
 
+Click the triangle for instructions
+
 {% include retro3.md %}
 
 ## Sprint Planning (approx 2:45-3:15pm)
