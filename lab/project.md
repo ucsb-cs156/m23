@@ -10,8 +10,8 @@ parent: lab
 num: project
 nav_order: 300
 proj_courses_slack_url: tbd
-proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
-proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
+proj_happycows_slack_url: https://ucsb-cs156-m23.slack.com/archives/C05KAAYM0AW
+proj_gauchoride_slack_url:  https://ucsb-cs156-m23.slack.com/archives/C05L023P79N
 ---
 
 # Legacy code project
@@ -242,10 +242,10 @@ You could also use "tags" for this purpose.
 
 | Team | Repo | Github Pages | Prod | QA |
 |--|--|--|--|--|
-| m23-9am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-1/) | [prod](https://proj-gauchoride.dokku-01.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-01.cs.ucsb.edu)
-| m23-9am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-2/) | [prod](https://proj-gauchoride.dokku-02.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-02.cs.ucsb.edu)
-| m23-9am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-3/) | [prod](https://proj-gauchoride.dokku-03.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-03.cs.ucsb.edu)
-| m23-9am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-4/) | [prod](https://proj-gauchoride.dokku-04.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-04.cs.ucsb.edu)
+| m23-9am-1 | [repo](https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-1) | [pages](https://ucsb-cs156-m23.github.io/proj-gauchoride-m23-9am-1/) | [prod](https://proj-gauchoride.dokku-01.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-01.cs.ucsb.edu)
+| m23-9am-2 | [repo](https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-2) | [pages](https://ucsb-cs156-m23.github.io/proj-gauchoride-m23-9am-2/) | [prod](https://proj-gauchoride.dokku-02.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-02.cs.ucsb.edu)
+| m23-9am-3 | [repo](https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-3) | [pages](https://ucsb-cs156-m23.github.io/proj-gauchoride-m23-9am-3/) | [prod](https://proj-gauchoride.dokku-03.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-03.cs.ucsb.edu)
+| m23-9am-4 | [repo](https://github.com/ucsb-cs156-m23/proj-gauchoride-m23-9am-4) | [pages](https://ucsb-cs156-m23.github.io/proj-gauchoride-m23-9am-4/) | [prod](https://proj-gauchoride.dokku-04.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-04.cs.ucsb.edu)
 
  
 ## 10am - happycows
@@ -254,10 +254,10 @@ You could also use "tags" for this purpose.
 
 | Team | Repo | Github Pages | Prod | QA |
 |--|--|--|--|--|
-| m23-10am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-1/) | [prod](https://proj-happycows.dokku-04.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-04.cs.ucsb.edu) |
-| m23-10am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-2/) |[prod](https://proj-happycows.dokku-05.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-05.cs.ucsb.edu) |
-| m23-10am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-3/) |[prod](https://proj-happycows.dokku-06.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-06.cs.ucsb.edu) |
-| m23-10am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-4/) |[prod](https://proj-happycows.dokku-07.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-07.cs.ucsb.edu) |
+| m23-10am-1 | [repo](https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-1) | [pages](https://ucsb-cs156-m23.github.io/proj-happycows-m23-10am-1/) | [prod](https://proj-happycows.dokku-04.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-04.cs.ucsb.edu) |
+| m23-10am-2 | [repo](https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-2) | [pages](https://ucsb-cs156-m23.github.io/proj-happycows-m23-10am-2/) |[prod](https://proj-happycows.dokku-05.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-05.cs.ucsb.edu) |
+| m23-10am-3 | [repo](https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-3) | [pages](https://ucsb-cs156-m23.github.io/proj-happycows-m23-10am-3/) |[prod](https://proj-happycows.dokku-06.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-06.cs.ucsb.edu) |
+| m23-10am-4 | [repo](https://github.com/ucsb-cs156-m23/proj-happycows-m23-10am-4) | [pages](https://ucsb-cs156-m23.github.io/proj-happycows-m23-10am-4/) |[prod](https://proj-happycows.dokku-07.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-07.cs.ucsb.edu) |
  
 <!-- ## 7pm - courses
 
