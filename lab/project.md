@@ -133,6 +133,70 @@ Here is where you'll get issues from:
   - Prof. Mattanjah deVries for proj-happycows
   <!-- - Prof. Phill Conrad for proj-courses -->
 
+## What are User Stories?  
+
+A **user story** is a story about how a user (of some specified role) interacts with your application to achieve a certain goal.
+
+It is phrased in the form:
+* As a *name of role*
+* I can *description of interaction with app*
+* So that *description of goal*
+
+The purpose of user stories is to constantly remind us as developers that our work should be grounded in *helping users acheive their goals*, not in 
+"adding features to an app".   The features need to the serve the larger purpose of the user (e.g. being a good farmer in the cows game, getting a ride somewhere on campus, finding a course to take). 
+
+Typically, when adding a new feature to the app, we try to ground it in a user story.
+
+## What is "the backlog"?
+
+The **backlog** of a team is the collection of user stories / epics that are waiting to be worked on; when we say **backlog** we are just referring to the collection
+of issues waiting for your team.
+
+When someone says "add it to the backlog", what they mean is to create an issue in the issues list, and possible to put it on the "to do" column of the Kanban board.
+
+
+
+## What is an Epic?
+
+An **Epic** is a group of related user stories around some theme.   Or it may be a single user story that requires a lot of individual changes to the app, changes that may be more effective and feasible to implement and introduce into the `main` branch in stages, rather than all at once.
+
+Some of the issues in your backlog are epics.  You will need to break them down into smaller user stories, which means **creating new issues**.
+
+It is recommended that you:
+* copy all of the relevant parts of the issue description from the epic it springs from (but *only* those parts)
+* make sure that the new smaller issue has acceptance criteria
+* "mention" the parent epic in the smaller issue, like this: "part of #14"; this creates a hyperlink to the epic.
+* You may also want to put a comment or mention of the smaller issue(s) in the Epic description saying something like "issue #26 addresses this part"
+
+## What does it mean to "groom the backlog"
+
+"Groom" and "grooming" have a technical definition in the context of Agile.   It is most related to this sense of these senses of the word grooming from the [Oxford English Dictionary](https://www.oed.com/dictionary/groom_v?tab=meaning_and_use)
+* "To give (a person, oneself) a clean, neat, or smart appearance; to arrange or style (one's hair, nails, clothes, etc.)
+* "To make ready for a particular role, objective, etc."
+
+In Agile, to "groom the backlog" means to groom some subset of the user stories in the backlog to make each one ready for a developer to work on. It is an essential part of Sprint Planning:
+
+Grooming a user story includes:
+* Having a discussion (often at the team level) to make sure the entire team understands the user need
+* To remove any ambiguities in the issue description, and perhaps even to sketch a preliminary design of the user interface, and or implementation
+* To estimate the complexity/difficulty of the story
+* To make a final list of acceptance criteria
+
+You will find that the user stories in the issues tab of your starter code are in various stages of grooming; some are completely groomed, while others
+may need some work.   
+
+More on backlog grooming:
+* <https://easyretro.io/blog/what-is-story-grooming-the-ultimate-guide-to-backlog-grooming/>
+
+## Essential: Building a shared team understanding of each story
+
+In any case, there is one important step that has not been taken for *any* of these stories, and that is **_coming to a shared team
+understanding_** about the user need, and how it will be addressed by the story.  That is a step you will need to take for *every* story you work on during
+the legacy code phase.
+
+You are **not working as individuals** but **as a team**.  Everyone on the team has an investment in the outcome of every branch and PR, so please do
+take an interest in what one another is working on.
+
 ## Existing issues
 
 Staff may add to these issues over the course of the project; when we do, we'll post an announcement in the project slack channels.
@@ -169,6 +233,13 @@ For each, I've set up Google OAuth client id and client secret.
 You are welcome to use `dokku config:show app-name` to get these values and use them for your localhost setup.
 
 Links are provided below.
+
+## Optional: The icebox
+
+Some teams will keep a column on their Kanban board (or even create a separate Kanban board) with a column called "icebox". This is a place to put stories that
+you might work on some day, but not in the near future.  
+
+You could also use "tags" for this purpose.
 
 # Links
 
