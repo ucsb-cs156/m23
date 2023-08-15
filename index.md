@@ -7,6 +7,6 @@ nav_order: 0
 
 # {{site.title}}, {{site.quarter}}
 
-## Legacy Code Projects
+## [Legacy Code Project](https://ucsb-cs156.github.io/m23/lab/project.html)
 
 {% include legacy.md %}
