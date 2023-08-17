@@ -1,7 +1,7 @@
 ---
 title: "Week 08b - 08.17 Thu"
 lecture_date: 2023-08-17
-description: "TBD"
+description: "Work on legacy code projects"
 ready: true
 layout: default
 parent: lectures
