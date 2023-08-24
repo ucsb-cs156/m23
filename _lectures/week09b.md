@@ -14,6 +14,21 @@ slides:
 * Review team Kanban board, and PR queue
 * Make sure anything that needs a code review, has one.
 
+# Did your team complete the priority issues?
+
+If not, points may be deducted from your team's final project grade, and your team is not eligible for bonus points.  So be sure that these were done completely!
+
+For Happycows, those are [these](https://github.com/ucsb-cs156/proj-happycows/issues?q=is%3Aopen+is%3Aissue+label%3AM23+label%3APRIORITY)
+* Track Periodic Statistics: <https://github.com/ucsb-cs156/proj-happycows/issues/66> (20 pts) 
+* Capacity Per Farmer: <https://github.com/ucsb-cs156/proj-happycows/issues/65> (20 pts)
+
+For Gauchoride, those are: [these](https://github.com/ucsb-cs156/proj-gauchoride/issues?q=is%3Aopen+is%3Aissue+label%3AM23+label%3APRIORITY)
+* User can add cell phone: <https://github.com/ucsb-cs156/proj-gauchoride/issues/62> (20 pts)
+* Clarify pickup/dropoff: <https://github.com/ucsb-cs156/proj-gauchoride/issues/61> (20 pts)
+* Driver Shift CRUD: <https://github.com/ucsb-cs156/proj-gauchoride/issues/44> (20 pts)
+
+You are strongly encouraged to double check this and post about it in the team channel.
+
 # Surveys coming soon
 
 * ESCIs: please don't forget to fill them out! They are super important.
