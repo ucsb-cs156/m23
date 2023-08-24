@@ -8,6 +8,8 @@ parent: lectures
 slides: 
 ---
 
+{% include drop_down_style.html %}
+
 # Today
 
 * Start with standup
