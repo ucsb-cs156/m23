@@ -136,6 +136,8 @@ Work independently, and let your learning speak for itself.
 Notes about the final presentation
 </summary>
 
+{% include release_notes.md %}
+
 # Notes about the final presentation
 
 The final presentation should be a team effort, and should highlight all of the PRs that got merged into the main branch.
