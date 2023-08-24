@@ -8,7 +8,13 @@ parent: lectures
 slides: 
 ---
 
-Final Pull Requests for legacy code projects are due by 9am today.
+Final Pull Requests for legacy code projects were due by 9am today.  
+* So no new PRs will be considered unless they are PRs that are specifically invited/authorized by staff (e.g. a request to resubmit an existing PR in a new form).
+* Existing PRs will be reviewed as soon as possible Friday
+* You may continue to work on PRs up until midnight Friday to try to get them mergeable.
+* After that, the staff will work on Saturday/Sunday to merge whatever is in a mergeable state.
+* If it is not in a mergeable state, those points are left on the table.
+* After 9am Friday, the maximum a team may earn is 100 points (no bonus points.)
 
 Each of those should be code reviewed by a team member by noon today.
 
