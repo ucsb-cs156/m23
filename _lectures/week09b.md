@@ -131,12 +131,12 @@ Work independently, and let your learning speak for itself.
 
 </details>
 
+{% include release_notes.md %}
+
 <details markdown="1">
 <summary>
 Notes about the final presentation
 </summary>
-
-{% include release_notes.md %}
 
 # Notes about the final presentation
 
