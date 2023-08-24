@@ -47,9 +47,10 @@ Your video should be 5 to 8 minutes long, and cover these points:
   - Please don't include thanks to me (Prof. Conrad) in the video; I don't want this to be an exercise in brown-nosing.
   - If you do want to express gratitude, feel free to share your thoughts with me on the Slack, by email, etc.  
 
-Please then also poll your team members and let me know your thoughts about the privacy of your final demo video:
-* public, available to anyone that is interested in the app and the course
-* unlisted, but ok to make it available to future CMPSC 156 students (as an example, and to orient them to the app and the course)
-* unlisted, and only shown once for this team's final demo, and to course staff 
+Please then also poll your team members and come to a consensus about the privacy of your final video. Include this in your submission on Canvas.
+
+* (a) We give permission only for course staff, and the students in CS156 this quarter to see this video
+* (b) We give permission for this video to be shared with current and future CS156 students only.
+* (c) Anyone may see this video (a link to it may be posted on the public course website)
 
 </details>
