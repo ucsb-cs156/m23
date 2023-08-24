@@ -29,6 +29,11 @@ slides:
 * Look at the PRs you have and get everything code reviewed that's ready to be code reviewed
 * Work to get things merged
 * Make sure anything that needs a code review, has one.
+* We will continue to review PRs and allow you to work on them until at least midnight Friday.
+* After midnight Friday:
+  - If it's mergeable, it's mergeable and you'll get the points.
+  - If not, then that's too bad.
+ 
 
 ## For Everyone
 
@@ -38,6 +43,7 @@ Optional but *highly recommended* as preparation for takehome final exam
 
 ## If your team is already at 100 points but not yet at 200 or more:
 
+* Important: Bonus points (the extra credit points between 100 and 200) are only available for PRs that are *mergeable by staff at or before 9am Friday*.
 * Discuss as a team: do you want to continue working on coding and PRs, or start on your release notes/final presentation?
 * If you want to continue, what are you your best candidates from the remaining PRs to get merged by Friday afternoon?
 * Make a post with the team consensus and tag Prof. Conrad
