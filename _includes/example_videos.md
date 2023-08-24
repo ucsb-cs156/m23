@@ -1,7 +1,5 @@
 <details markdown="1">
-<summary markdown="1">
-Example Videos (these teams gave me permission to share them publically)
-</summary>
+<summary markdown="1">Example Videos (these teams gave me permission to share them publically)</summary>
 
 ## Gauchoride
 
