@@ -1,4 +1,3 @@
-
 ---
 title: team02a
 desc: "Team Project: Spring Boot Backend, part 2 (authenticated CRUD, Liquibase)"
