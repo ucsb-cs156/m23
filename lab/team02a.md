@@ -76,6 +76,7 @@ Set up Tasks (once per team):
 
 Coding Tasks: 
 * Adding 4 to 5 database tables (one per team member)
+* Adding database migration files for each of the new tables
 * Setting up CRUD (Create, Read, Update, Destroy) operations for each of those tables
 * Adding backend test coverage for all of that
 
@@ -91,6 +92,7 @@ can authenticate before doing CRUD operations.
 We are focusing on learning these new Spring Boot backend concepts:
 
 * Creating SQL database tables using `@Entity` and `@Repository`
+* Utilizing Changelog files to describe changes to the database
 * Using the Lombok annotations: `@Data`, `@NoArgsConstructor`, `@Builder`, etc.
 * Implementing controller routes for CRUD operations (Created, Read, Update, Destroy)
 * Writing unit tests for controller CRUD operations, including the use of:
@@ -529,6 +531,97 @@ generated code are complicated: we will not go over all of them in lecture, and 
 
 In any case, if/when you do need to understand that, here is some documentation is here to help get you started: <https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/#jdbc.query-methods>
 
+# Details: Liquibase Database Migrations
+
+Using Liquibase migrations allows you to make changes to your database tables without having to restart the entire database.
+Liquibase allows you to describe changes to the database schema and it uses those descriptions to apply changes to it.
+The changes can be described in JSON and are stored in `src/resources/db/migration/changelog/changes`.
+Each file is a description of the database changes to each of the defined entities.
+The key here is consistency, always create the database changelog file after you create a new entity or modify it.
+
+The example for the changelog files can be found in these files:
+
+* [UCSBDates](https://github.com/MPriston/STARTER-team02/blob/main/src/main/resources/db/migration/changelog/changes/UCSBDates.json)
+* [UCSBDiningCommons](https://github.com/MPriston/STARTER-team02/blob/main/src/main/resources/db/migration/changelog/changes/UCSBDiningCommons.json)
+
+Each of the change JSON files are structured the same way:
+```
+{"databaseChangeLog: [
+  {
+    "changeSet": {
+      "id": "1697389100055-2",
+      "author": "author",
+      "changes: [{
+              "createTable": {
+                "columns": [
+                  {
+                    "column": {
+                      "constraints": {
+                        "primaryKey": true,
+                        "primaryKeyName": "CONSTRAINT_2"
+                      },
+                      "name": "CODE",
+                      "type": "VARCHAR(255)"
+                    }
+                  },
+                  {
+                    "column": {
+                      "constraints": {
+                        "nullable": false
+                      },
+                      "name": "HAS_DINING_CAM",
+                      "type": "BOOLEAN"
+                    }
+                  }]
+                ,
+                "tableName": "UCSBDININGCOMMONS"
+              }]
+    }
+  }
+]}
+```
+`databaseChangeLog` is the beginning of every change file, it holds a list of changeSets that will describe changes to the database
+
+`changeSet` is one of the changes held by `databaseChangeLog` it holds 3 items:
+
+`id`: this field holds a unique id to the change set it can be any number you want as long as it is unique across all change files not just this specific one
+
+`author`: this field holds the author of the `changeSet`
+
+`changes`: this field holds a list of the changes that are to be applied in this specific change set, for a complete list of possible database changes check [Liquibase](https://docs.liquibase.com/change-types/home.html)
+
+## Commands to be used with Liquibase
+
+### Check changes to database
+```
+mvn liquibase:updateSQL
+```
+This command will show the changes that will be applied when following the change log you described. This will not apply the changes just provide you with a way to inspect it
+
+### Apply chnages to database
+```
+mvn liquibase:update
+```
+This command will apply the changes to the database. The changes will also be applied when you start your application so you wont need to update it before starting the app.
+
+### Sync database to changelog
+```
+mvn liquibase:changelogSync
+```
+This command will make all the changes you currently have be marked as applied already, this is useful when working on a database that already exists, when you don't want for example to create a table that already exists.
+
+### Tagging a version of the database
+```
+mvn liquibase:tag --tag=myTag
+```
+This can be used to mark a version of the database that can be used when doing rollbacks
+
+### Rollback to tag
+```
+mvn liquibase:rollback --tag=myTag
+```
+This command can be used to rollback the database to a previousily marked tag
+  
 # Details: Controller methods and tests
 
 The examples for the Controller Methods are tests are in these files:
@@ -543,6 +636,7 @@ The examples for the Controller Methods are tests are in these files:
 You should be able to find the code you need for each of the methods, and use it as a model to create the code for your database table.
 
 If you need additional guidance, ask on the `#help-team02` channel, and we'll try to steer you in the right direction.
+
 
 # When you are done
 
