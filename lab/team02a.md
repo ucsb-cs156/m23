@@ -551,6 +551,20 @@ Each of the change JSON files are structured the same way:
     "changeSet": {
       "id": "1697389100055-2",
       "author": "author",
+      "preConditions": [
+            {
+              "onFail": "MARK_RAN"
+            },
+            {
+              "not": [
+                {
+                  "tableExists": {
+                    "tableName": "MY_NEW_TABLE"
+                  }
+                }
+              ]
+            }
+          ],
       "changes: [{
               "createTable": {
                 "columns": [
@@ -574,7 +588,7 @@ Each of the change JSON files are structured the same way:
                     }
                   }]
                 ,
-                "tableName": "UCSBDININGCOMMONS"
+                "tableName": "MY_NEW_TABLE"
               }]
     }
   }
@@ -621,6 +635,32 @@ This can be used to mark a version of the database that can be used when doing r
 mvn liquibase:rollback --tag=myTag
 ```
 This command can be used to rollback the database to a previousily marked tag
+
+## Preconditions
+```
+"changeSet": {
+    "preConditions": [
+      {
+        "onFail": "MARK_RAN"
+      },
+      {
+        "not": [
+          {
+            "tableExists": {
+              "tableName": "MY_NEW_TABLE"
+            }
+          }
+        ]
+      }
+    ]
+    "changes": etc
+    }
+``` 
+Preconditions can be set in each of the changes that will help you determine if certain change should be ran or what to do if it fails.
+
+The example above tells liquibase to mark a change as ran in case it fails because the table already exists, very useful when working with an already existing database.
+
+For more information on preconditions you can see [Preconditions](https://docs.liquibase.com/concepts/changelogs/preconditions.html)
   
 # Details: Controller methods and tests
 
